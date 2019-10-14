@@ -21,6 +21,12 @@ body {
   line-height: 1.7;
   color: #222227; }
 
+h2 {
+  margin: 2rem auto; }
+
+section {
+  padding: 3rem; }
+
 .u-main-container {
   display: flex;
   flex-direction: column; }
@@ -74,7 +80,7 @@ body {
         text-decoration: none;
         color: inherit; }
       .nav-bar__menu__item__link:hover {
-        border-bottom: solid #ca3d3d 2.5px; }
+        border-bottom: solid #ff0040 2.5px; }
 
 .offer {
   margin: 1rem 2rem;
