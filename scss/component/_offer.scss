@@ -3,7 +3,8 @@
   font-size: 1.5rem;
 
   &__background-image {
-    padding: 3rem 3rem;
+    padding: 3rem;
+    display: flex;
     margin: 7rem 0;
     height: 90vh;
     width: 100%;
@@ -13,8 +14,8 @@
   }
 
   &__container {
-    padding: 3rem;
-    color: #efefef;
+    margin: auto auto;
+    color: rgb(20, 20, 20);
     font-size: 1.7rem;
     font-weight: 400;
 
@@ -41,15 +42,16 @@
           margin-bottom: .5rem;
           display: inline-block;
           background-image: linear-gradient(
-                            to right, rgba(21, 206, 61, 0.3), rgba(241, 1, 1, 0.4)
+                            to right, rgba(50,50,50,1), rgba(70,70,70,1)
           );
           -webkit-background-clip: text;
           color: transparent;
       }
 
-      &:hover {
-          transform: translateY(-1.5rem) scale(1.03);
-      }
+      // zastanów się czy chcemy tutaj hover
+      // &:hover {
+      //     transform: translateY(-1.5rem) scale(1.03);
+      // }
     }
   }
 }
