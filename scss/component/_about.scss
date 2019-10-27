@@ -1,4 +1,27 @@
 .about {
   margin: 1rem 2rem;
   font-size: 1.7rem;
+
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // &__bulk {
+    //   background-color: rgb(200,0,0);
+    //   height: 5rem;
+    //   width: calc(100% / 1.41421356237);
+    //   transform: skewY(-45deg) translateY(-30rem);
+
+    // }
+
+    &__image {
+      flex: 1 0 50%;
+    }
+
+    &__text {
+      flex: 1 0 50%;
+      padding: 3rem;
+    }
+  }
 }

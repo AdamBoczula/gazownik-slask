@@ -24,17 +24,18 @@
 
     &__item {
       &__link {
-        padding: .5rem 1rem;
+        padding: .0 1rem;
         margin-right: 2.5rem;
-        transition: all .1s;
-        
+        transition: all .2s;
+
         &:link,
         &:visited {
           text-decoration: none;
           color: inherit;
         }
-        
+
         &:hover {
+          padding-bottom: .5rem;
           border-bottom: solid rgb(255, 0, 64) 2.5px;
         }
       }
@@ -43,6 +44,6 @@
 }
 
 
-// PONIŻEJ 600 PX MEDIA QUERY 
+// PONIŻEJ 600 PX MEDIA QUERY
 // NA NAVBAR
-// flex-direction: column;  
+// flex-direction: column;
