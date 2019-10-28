@@ -1,10 +1,40 @@
 .hero {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(to bottom right, rgb(200,0,0), rgb(200, 100, 30));
+  background: linear-gradient(to top right, rgba(200,0,0, 0.6), rgba(200, 100, 30, 0.6)),
+              url('../img/hero.jpg') no-repeat top;
+  background-size: cover;
+
   clip-path: polygon(0 0, 100% 0, 100% 88vh, 0% 82vh);
-  color: white;
+  color: #FAF6F6;
   // linear-gradient(to top right, rgba(255, 0, 64, 0.3), rgba(0, 110, 255, 0.4));
               // url('../img/hero.jpg') no-repeat top;
   // background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: .3rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    padding-top: 5rem;
+    font-weight: 400;
+    font-size: 2.7rem;
+    margin: 0;
+  }
 }

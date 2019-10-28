@@ -76,6 +76,13 @@ p {
         margin-left: 1.5rem;
         transition: all .2s;
         opacity: 1; }
+      .contact__container__form input, .contact__container__form textarea {
+        transition: all .2s;
+        outline: none; }
+        .contact__container__form input:focus, .contact__container__form textarea:focus {
+          outline: 2px solid rgba(30, 30, 150, 0.3); }
+        .contact__container__form input:invalid:not(:focus):not(:placeholder-shown), .contact__container__form textarea:invalid:not(:focus):not(:placeholder-shown) {
+          background-color: rgba(200, 0, 0, 0.2); }
       input:invalid + .contact__container__form__label {
         color: #c80000; }
       input:placeholder-shown + .contact__container__form__label {
@@ -115,9 +122,30 @@ p {
 .hero {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(to bottom right, #c80000, #c8641e);
+  background: linear-gradient(to top right, rgba(200, 0, 0, 0.6), rgba(200, 100, 30, 0.6)), url("../img/hero.jpg") no-repeat top;
+  background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 88vh, 0% 82vh);
-  color: white; }
+  color: #FAF6F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .hero h1 {
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase; }
+  .hero h2 {
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: .3rem;
+    font-size: 4rem;
+    text-transform: uppercase; }
+  .hero h3 {
+    padding-top: 5rem;
+    font-weight: 400;
+    font-size: 2.7rem;
+    margin: 0; }
 
 .nav-bar {
   width: 100%;
@@ -146,7 +174,7 @@ p {
         color: inherit; }
       .nav-bar__menu__item__link:hover {
         padding-bottom: .5rem;
-        border-bottom: solid #ff0040 2.5px; }
+        border-bottom: solid #c80000 2.5px; }
 
 .offer {
   margin: 1rem 0;
@@ -157,8 +185,7 @@ p {
     display: flex;
     margin: 7rem 0;
     width: 100%;
-    background: linear-gradient(to right, #c80000, #c8641e);
-    background-size: cover; }
+    background: linear-gradient(to right, #c80000, #c8641e); }
   .offer__container {
     transform: skewY(8deg);
     margin: 7rem 0;
@@ -191,3 +218,11 @@ p {
       .offer__container .feature-box__text {
         margin-top: 2rem;
         font-size: 1.6rem; }
+
+.footer {
+  margin-top: 5rem;
+  padding: 5rem;
+  background: #071430;
+  color: #647bad;
+  background-size: cover;
+  font-size: 2rem; }
