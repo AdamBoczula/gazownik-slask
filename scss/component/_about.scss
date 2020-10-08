@@ -1,5 +1,5 @@
 .about {
-  margin: 1rem 2rem;
+  margin: 0 2rem;
   font-size: 1.7rem;
 
   &__container {
@@ -7,16 +7,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // &__bulk {
-    //   background-color: rgb(200,0,0);
-    //   height: 5rem;
-    //   width: calc(100% / 1.41421356237);
-    //   transform: skewY(-45deg) translateY(-30rem);
 
-    // }
+    @media (max-width: $tablet) {
+      flex-direction: column;
+    }
 
     &__image {
+      height: 30rem;
+      @media (max-width: $tablet) {
+        flex: auto;
+        width: 100%;
+      }
+
       flex: 1 0 50%;
+      background: url("../img/tools.jpg");
+      background-size: cover;
     }
 
     &__text {

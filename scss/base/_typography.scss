@@ -1,7 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  /*font-size: 16px;*/
   line-height: 1.7;
   color: $grey-dark;
 }
@@ -16,4 +15,13 @@ section {
 
 p {
   margin-top: 1rem;
+
+  @media (max-width: $tablet) {
+    font-size: 1.8rem;
+  }
+}
+
+.header--2 {
+  font-size: 2.5rem;
+  text-align: center;
 }

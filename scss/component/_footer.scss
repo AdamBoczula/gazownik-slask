@@ -1,10 +1,28 @@
 .footer {
   margin-top: 5rem;
-  padding: 5rem;
+  padding: 10rem 5rem;
   background: rgb(7, 20, 48);
-              // url('../img/end-hero.jpg') no-repeat center center;
-  color: rgb(100, 123, 173);
+  clip-path: polygon(0 0, 100% 15rem, 100% 100%, 0 100%);
+  color: rgb(155, 179, 233);
   background-size: cover;
   font-size: 2rem;
 
+  &__phone {
+    &__link {
+      margin-left: 0.4rem;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  &__email {
+    &__link {
+      margin-left: 0.4rem;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  &__company_name {
+    font-size: 2.5rem;
+  }
 }
