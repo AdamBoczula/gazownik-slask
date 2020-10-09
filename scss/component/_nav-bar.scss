@@ -36,22 +36,22 @@
       text-decoration: none;
     }
     @media (max-width: $tablet) {
-      margin-left: 0.5rem;
+      margin-left: 0;
       font-size: 2rem;
     }
 
     @media (max-width: $mobileL) {
-      margin-left: 0.3rem;
-      font-size: 2rem;
+      margin-left: 0;
+      font-size: 1.9rem;
     }
 
     @media (max-width: $mobileM) {
       margin-left: 0;
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
     @media (max-width: $mobileS) {
       margin-right: 0;
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
 
@@ -74,26 +74,28 @@
         transition: all 0.15s;
 
         @media (max-width: $tablet) {
-          margin-right: 1rem;
+          margin-right: 0.5rem;
           font-size: 1.8rem;
         }
 
         @media (max-width: $mobileL) {
-          margin-right: 0.8rem;
           font-size: 1.8rem;
+          margin-right: 0;
+          padding-left: 0.8rem;
+          padding-right: 0.8rem;
         }
 
         @media (max-width: $mobileM) {
           margin-right: 0;
-          padding-left: 0.8rem;
-          padding-right: 0.8rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           font-size: 1.8rem;
         }
 
         @media (max-width: $mobileS) {
           margin-right: 0;
-          padding-left: 0.8rem;
-          padding-right: 0.8rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           font-size: 1.5rem;
         }
 

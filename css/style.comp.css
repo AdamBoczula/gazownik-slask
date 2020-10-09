@@ -243,20 +243,20 @@ p {
       text-decoration: none; }
     @media (max-width: 768px) {
       .nav-bar__title {
-        margin-left: 0.5rem;
+        margin-left: 0;
         font-size: 2rem; } }
     @media (max-width: 425px) {
       .nav-bar__title {
-        margin-left: 0.3rem;
-        font-size: 2rem; } }
+        margin-left: 0;
+        font-size: 1.9rem; } }
     @media (max-width: 375px) {
       .nav-bar__title {
         margin-left: 0;
-        font-size: 2rem; } }
+        font-size: 1.8rem; } }
     @media (max-width: 320px) {
       .nav-bar__title {
         margin-right: 0;
-        font-size: 2rem; } }
+        font-size: 1.8rem; } }
   .nav-bar__name {
     display: flex;
     flex-direction: column;
@@ -272,23 +272,25 @@ p {
       transition: all 0.15s; }
       @media (max-width: 768px) {
         .nav-bar__menu__item__link {
-          margin-right: 1rem;
+          margin-right: 0.5rem;
           font-size: 1.8rem; } }
       @media (max-width: 425px) {
         .nav-bar__menu__item__link {
-          margin-right: 0.8rem;
-          font-size: 1.8rem; } }
+          font-size: 1.8rem;
+          margin-right: 0;
+          padding-left: 0.8rem;
+          padding-right: 0.8rem; } }
       @media (max-width: 375px) {
         .nav-bar__menu__item__link {
           margin-right: 0;
-          padding-left: 0.8rem;
-          padding-right: 0.8rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           font-size: 1.8rem; } }
       @media (max-width: 320px) {
         .nav-bar__menu__item__link {
           margin-right: 0;
-          padding-left: 0.8rem;
-          padding-right: 0.8rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           font-size: 1.5rem; } }
       .nav-bar__menu__item__link:link, .nav-bar__menu__item__link:visited {
         outline: none;
