@@ -471,8 +471,7 @@ p {
       opacity: 1; }
     .nav-bar__title:link, .nav-bar__title:visited {
       outline: none;
-      text-decoration: none;
-      color: inherit; }
+      text-decoration: none; }
   .nav-bar__name {
     display: flex;
     flex-direction: column;
