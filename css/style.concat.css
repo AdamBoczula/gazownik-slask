@@ -620,8 +620,8 @@ p {
   0% {
     opacity: 0;
     transform: translateX(-10rem); }
-  80% {
-    transform: translateX(1rem); }
+  70% {
+    transform: translateX(5rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -630,8 +630,8 @@ p {
   0% {
     opacity: 0;
     transform: translateX(10rem); }
-  80% {
-    transform: translateX(-1rem); }
+  70% {
+    transform: translateX(-6rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -639,7 +639,7 @@ p {
 @keyframes moveInTop {
   0% {
     opacity: 0;
-    transform: translateY(5rem); }
+    transform: translateY(7rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
