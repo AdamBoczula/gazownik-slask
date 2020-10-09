@@ -1,4 +1,4 @@
-const links = document.querySelectorAll(".nav-bar ul a");
+const links = document.querySelectorAll(".nav-bar a");
 for (const e of links) e.addEventListener("click", clickHandler);
 function clickHandler(e) {
   e.preventDefault();
